@@ -10,4 +10,8 @@
   <!-- Proprietary vendor blobs -->
   <project path="vendor/nokia/NB1" name="nokia-msm8998/proprietary_vendor_nokia_NB1" revision="lineage-22.1" remote="github" />
   <project path="vendor/nokia/msm8998-common" name="nokia-msm8998/proprietary_vendor_nokia_msm8998-common" revision="lineage-22.1" remote="github" />
+
+  <!-- LineageOS -->
+  <remove-project path="vendor/lineage" />
+  <project path="vendor/lineage" name="log1cs/android_vendor_lineage" revision="lineage-22.1" remote="github" />
 </manifest>
